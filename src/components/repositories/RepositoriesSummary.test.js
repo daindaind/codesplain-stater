@@ -1,6 +1,5 @@
 import { screen, render } from "@testing-library/react";
 import RepositoriesSummary from "./RepositoriesSummary";
-import e from "express";
 
 test("리포지토리의 주요 언어가 화면에 나타나는지 확인", () => {
   const repository = {
